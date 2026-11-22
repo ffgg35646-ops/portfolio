@@ -519,6 +519,27 @@ header .container{
     transform:translateY(-4px);
 }
 
+/* Project cover placeholders for newly added projects */
+.project-placeholder{
+    width:100%;
+    height:220px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+    text-align:center;
+    font-size:28px;
+    font-weight:700;
+    letter-spacing:.5px;
+    color:#fff;
+    background:linear-gradient(135deg,#172554,#0891b2);
+}
+.school-cover{background:linear-gradient(135deg,#172554,#2563eb);}
+.aqar-cover{background:linear-gradient(135deg,#422006,#b45309);}
+.khadamati-cover{background:linear-gradient(135deg,#134e4a,#0d9488);}
+.swiftmine-cover{background:linear-gradient(135deg,#1e1b4b,#6d28d9);}
+.arabtrade-cover{background:linear-gradient(135deg,#062e2b,#0f766e);}
+
 /* =====================================================
    CONTACT
 ===================================================== */
